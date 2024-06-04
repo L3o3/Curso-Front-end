@@ -1,0 +1,61 @@
+/* Dentro do arquivo CSS, a sintaxe é: seletor { propriedade: valor;}  */
+
+/* O seletor "body" serve para estilizar todo o documento html */
+body {
+    /* A propriedade "background-color serve para mudar a cor de fundo do seletor denomidado */
+    /* As cores são feitas com codigo #RGB. #R(2 coresvermelha) G(2 cores verdes) B(2 cores azuis) */
+    background-color: rgb(153, 166, 203);
+}
+
+h1 {
+    /* A Propriedade "color" serve para mudar a cor das letras */
+    color: red;
+    /* A Propriedade "font-family" serve para mudar a familia da fonte das letras */
+    font-family: Arial, Helvetica, sans-serif;
+    /* A Propriedade "font-size" serve para mudar o tamanho das letras */
+    font-size: 56px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    /* A Propriedade "font-style" serve para mudar o estilo das letras, geralmente "italic" ou " normal" */
+    font-style: italic;
+    /* A Propriedade "font-weight" serve para mudar o espaçamento das letras */
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 38px;
+    /* A Propriedade "text-tranform" serve para colocar todas as iniciais com letras maiusculas */
+    text-transform: capitalize;
+    /* A Propriedade "text-align" serve para alinhar as letras na direita, esquerda ou centralizado */
+    text-align: center;
+    /* A Propriedade "text-decoration" serve para sublinhar ou travessão nas letras */
+    text-decoration: underline;
+    background-color: cyan;
+}
+
+p {
+        /* A Propriedade "text-indent" serve para indentar as palevras da borda à esquerda */
+    text-indent: 58px;
+    font-size: 28px;
+    text-align: left;
+    color: #dbd709;    
+    /* A Propriedade "font-variant" serve para colocar todas as letras em maiusculas ou minusculas */
+    font-variant: small-caps;
+}
+
+a {
+    text-decoration: none;
+    font-variant: normal;
+}
+
+.destaque {
+    color: #00696d;
+    font-weight: bold;
+}
+
+#titulo {
+    color: #7b5101;
+}
