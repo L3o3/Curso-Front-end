@@ -1,48 +1,52 @@
-/* Dentro do arquivo CSS, a sintaxe é: seletor { propriedade: valor;}  */
+/* A sintaxe do css é: 
 
-/* O seletor "body" serve para estilizar todo o documento html */
+seletor {
+    propriedade: valor;
+ }
+  */
+
+/* O seletor "body" serve para alterar todo o corpo do documento HTML */
 body {
-    /* A propriedade "background-color serve para mudar a cor de fundo do seletor denomidado */
-    /* As cores são feitas com codigo #RGB. #R(2 coresvermelha) G(2 cores verdes) B(2 cores azuis) */
+    /* A propriedade "background-color serve para modificar a cor de fundo do seletor */
     background-color: rgb(153, 166, 203);
 }
 
 h1 {
-    /* A Propriedade "color" serve para mudar a cor das letras */
+    /* A propriedade "color" serve para mudar a cor da fonte do seletor */
     color: red;
-    /* A Propriedade "font-family" serve para mudar a familia da fonte das letras */
+    /* A propriedade "font-family" serve para definir a fonte do seletor */
     font-family: Arial, Helvetica, sans-serif;
-    /* A Propriedade "font-size" serve para mudar o tamanho das letras */
+    /* A propriedade "font-size" serve para alterar o tamanho da fonte do seletor */
     font-size: 56px;
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
-    /* A Propriedade "font-style" serve para mudar o estilo das letras, geralmente "italic" ou " normal" */
+    /* A propriedade "font-style" serve para alterar o estilo da fonte do seletor */
     font-style: italic;
-    /* A Propriedade "font-weight" serve para mudar o espaçamento das letras */
+    /* A propriedade "font-weight" serve para alterar a largura do seletor */
     font-weight: normal;
 }
 
 h3 {
     font-size: 38px;
-    /* A Propriedade "text-tranform" serve para colocar todas as iniciais com letras maiusculas */
+    /* A Propriedade "text-transform" serve para alterar as primeirars letras do seletor */
     text-transform: capitalize;
-    /* A Propriedade "text-align" serve para alinhar as letras na direita, esquerda ou centralizado */
+    /* A propriedade "text-align" serve para alinhar o seletor */
     text-align: center;
-    /* A Propriedade "text-decoration" serve para sublinhar ou travessão nas letras */
+    /* A propriedade "text-decoration" serve para colocar sublinha ou travassão no seletor */
     text-decoration: underline;
     background-color: cyan;
 }
 
 p {
-        /* A Propriedade "text-indent" serve para indentar as palevras da borda à esquerda */
-    text-indent: 58px;
+    /* A propriedade "text-indent" serve para indentar o inicio do seletor */
+    text-indent: 100px;
     font-size: 28px;
     text-align: left;
-    color: #dbd709;    
-    /* A Propriedade "font-variant" serve para colocar todas as letras em maiusculas ou minusculas */
+    color: #dbd709;
+    /* A propriedade "font-variant" serve para colocar as fontes maiusculas ou minusculas do seletor */
     font-variant: small-caps;
 }
 
