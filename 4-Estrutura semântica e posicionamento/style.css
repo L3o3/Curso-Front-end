@@ -57,3 +57,34 @@ header article p {
     padding: 8px 16px;
     font-size: 12px;
 }
+
+.container {
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid #ccc;
+}
+
+.container article {
+    background-color: white;
+    padding: 8px 16px 32px;
+    margin: 16px 0;
+}
+
+.container article h2 {
+    background-color: #ccc;
+    padding: 8px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.container article a {
+    padding: 16px;
+    background-color: #ccc;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.container article a:hover {
+    background-color: black;
+    color: #ccc;
+}
