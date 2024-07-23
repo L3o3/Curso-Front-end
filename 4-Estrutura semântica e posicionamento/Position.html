@@ -11,7 +11,10 @@
             background-color: rgba(255, 0, 0, .5);
             padding: 10px;
             width: 90%;
-            position: relative;
+            /* A propriedade sticky, o elemento fica posicionado com base na posição de rolagem do usuário. Um elemento fixo alterna entre relative e fixed, dependendo da posição de rolagem. Ele é posicionado em relação até que uma determinada posição de deslocamento seja atingida na janela de visualização - então ele "gruda" no lugar. */
+            position: sticky;
+            top: 0;
+            bottom: 0;
             
         }
 
@@ -28,8 +31,7 @@
             padding: 10px;
             width: 30px;
             height: 30px;
-            /* A propriedade fixed, oelemento fica posicionado em relação à janela do navegador. */
-            position: fixed;
+            position: static;
             top: 20px;
             right: 0;
             
