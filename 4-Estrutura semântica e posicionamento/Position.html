@@ -11,8 +11,6 @@
             background-color: rgba(255, 0, 0, .5);
             padding: 10px;
             width: 90%;
-            height: 100px;
-            /* A propriedade relative tem o elemento posicionado na sua posição normal, mas altera o elemento com propriedade absolute. */
             position: relative;
             
         }
@@ -22,7 +20,7 @@
             padding: 10px;
             width: 80%;
             height: 50px;
-
+            position: relative;
         }
 
         #div3 {
@@ -30,8 +28,8 @@
             padding: 10px;
             width: 30px;
             height: 30px;
-            /* Com a Propriedade relative em um elemento Pai, o elemento com propriedade absolute respeita os limites do elemento Pai com propriedade relative. */
-            position: absolute;
+            /* A propriedade static tem o valor padrão. Os elementos são renderizados em ordem, conforme aparecem no fluxo do documento. Não sofrendo alteração dos elementos Pais anteriores. */
+            position: static;
             bottom: 0;
             right: 0;
             
