@@ -1,0 +1,65 @@
+/* A sintaxe do css é: 
+
+seletor {
+    propriedade: valor;
+ }
+  */
+
+/* O seletor "body" serve para alterar todo o corpo do documento HTML */
+body {
+    /* A propriedade "background-color serve para modificar a cor de fundo do seletor */
+    background-color: rgb(153, 166, 203);
+}
+
+h1 {
+    /* A propriedade "color" serve para mudar a cor da fonte do seletor */
+    color: red;
+    /* A propriedade "font-family" serve para definir a fonte do seletor */
+    font-family: Arial, Helvetica, sans-serif;
+    /* A propriedade "font-size" serve para alterar o tamanho da fonte do seletor */
+    font-size: 56px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    /* A propriedade "font-style" serve para alterar o estilo da fonte do seletor */
+    font-style: italic;
+    /* A propriedade "font-weight" serve para alterar a largura do seletor */
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 38px;
+    /* A Propriedade "text-transform" serve para alterar as primeirars letras do seletor */
+    text-transform: capitalize;
+    /* A propriedade "text-align" serve para alinhar o seletor */
+    text-align: center;
+    /* A propriedade "text-decoration" serve para colocar sublinha ou travassão no seletor */
+    text-decoration: underline;
+    background-color: cyan;
+}
+
+p {
+    /* A propriedade "text-indent" serve para indentar o inicio do seletor */
+    text-indent: 100px;
+    font-size: 28px;
+    text-align: left;
+    color: #dbd709;
+    /* A propriedade "font-variant" serve para colocar as fontes maiusculas ou minusculas do seletor */
+    font-variant: small-caps;
+}
+
+a {
+    text-decoration: none;
+    font-variant: normal;
+}
+
+.destaque {
+    color: #00696d;
+    font-weight: bold;
+}
+
+#titulo {
+    color: #7b5101;
+}

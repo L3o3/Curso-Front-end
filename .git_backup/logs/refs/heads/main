@@ -1,0 +1,34 @@
+0000000000000000000000000000000000000000 99e95ede4fe30ecfc27ba19eb553e5d76187298f Leonardo de Araujo Bento <leoedev3579@gmail.com> 1717179825 -0300	commit (initial): introdução html
+99e95ede4fe30ecfc27ba19eb553e5d76187298f 6e583698bdbb727a3ea89f1f76ddc95d3d7c5876 L3o3 <leoedev3579@gmail.com> 1717460644 -0300	pull: Fast-forward
+6e583698bdbb727a3ea89f1f76ddc95d3d7c5876 8718a16e9a790da269ea4680005fc90fe73845a5 L3o3 <leoedev3579@gmail.com> 1717460762 -0300	commit: introdução css
+8718a16e9a790da269ea4680005fc90fe73845a5 72b255580a7641693d3f183d6772ccfd0505ced6 L3o3 <leoedev3579@gmail.com> 1717463756 -0300	commit: Indrodução a classes e atualizações
+72b255580a7641693d3f183d6772ccfd0505ced6 9e43ca7c7ca5452f50069ac77feec6274e2899a6 L3o3 <leoedev3579@gmail.com> 1717463891 -0300	pull origin main: Merge made by the 'ort' strategy.
+9e43ca7c7ca5452f50069ac77feec6274e2899a6 b9ff6c5951ca199c0f1f4c88e1fc41a96c8d89c2 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1718038961 -0300	commit: atualização de diretórios
+b9ff6c5951ca199c0f1f4c88e1fc41a96c8d89c2 c5a038e7f28e366a85549c711da35ee2af265382 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1718040625 -0300	commit: Atualizando 'introdução_CSS'
+c5a038e7f28e366a85549c711da35ee2af265382 fb90214fa47f6866ebf857f453ac2a0c8ac49aa4 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1718041991 -0300	commit: Box Model
+fb90214fa47f6866ebf857f453ac2a0c8ac49aa4 bcd0dae6113cc8fc64baedfec323de54dc7affcb Leonardo de Araujo Bento <leoedev3579@gmail.com> 1718044787 -0300	commit: adicionando box model e margin auto
+bcd0dae6113cc8fc64baedfec323de54dc7affcb b49d0407d94de7317960e7e9861834622fcc144a Leonardo de Araujo Bento <leoedev3579@gmail.com> 1718046838 -0300	commit: box-sizing
+b49d0407d94de7317960e7e9861834622fcc144a 778640d9340f32c253ae0c52946aa3f328429c48 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1718117764 -0300	commit: Display
+778640d9340f32c253ae0c52946aa3f328429c48 ff626258482c0cf1ce75f4fded241ba3b11603b3 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1718118068 -0300	commit: Pseudo classes - Links
+ff626258482c0cf1ce75f4fded241ba3b11603b3 c0ac587c6bc15d1ba6e714f45b413664e7501569 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1718118226 -0300	commit: Listas
+c0ac587c6bc15d1ba6e714f45b413664e7501569 4fb1629320489fed5c576920ebc95084aaacc326 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1718376684 -0300	commit: listas
+4fb1629320489fed5c576920ebc95084aaacc326 86e75531633562b0cfef19880e931ebf0557f858 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1718376820 -0300	commit: listas corrigido
+86e75531633562b0cfef19880e931ebf0557f858 214d53acdf85ef30929bbf1d898bf39ff701f484 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1718377513 -0300	commit: display
+214d53acdf85ef30929bbf1d898bf39ff701f484 6fb145addc3e0a127e8bfa1487b051c2250f410a Leonardo de Araujo Bento <leoedev3579@gmail.com> 1718381457 -0300	commit: links pseudo_classes
+6fb145addc3e0a127e8bfa1487b051c2250f410a d319069b8ad0084b6767aff7bcfa5be0db0d204c Leonardo de Araujo Bento <leoedev3579@gmail.com> 1718388700 -0300	commit: desafio curriculo
+d319069b8ad0084b6767aff7bcfa5be0db0d204c e37fc9257cd4e930c2b0b04fa66863d896ad2658 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1720719229 -0300	commit: adicionando o HTML do 'Projeto 1'
+e37fc9257cd4e930c2b0b04fa66863d896ad2658 071d050259fac91068bbf364ef9e350819327dcf Leonardo de Araujo Bento <leoedev3579@gmail.com> 1720723638 -0300	commit: Adicionando 'style.css' e editando a navegação da pagina
+071d050259fac91068bbf364ef9e350819327dcf 1a03fea91eaef56dff6205c70ccff8d4cfe2fa41 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1720723882 -0300	commit: editando o 'article do header'
+1a03fea91eaef56dff6205c70ccff8d4cfe2fa41 c04efcaa6611075a6fd6206b4898c9b170cc3164 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1720724199 -0300	commit: editando o 'main' do projeto
+c04efcaa6611075a6fd6206b4898c9b170cc3164 d9b26e6cc59493aab2bdff25c118046f3ad1f3c4 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1720724331 -0300	commit: editando o 'footer' do projeto
+d9b26e6cc59493aab2bdff25c118046f3ad1f3c4 aa44d4ea1b9ea9edd23599dfa2c3f4600bfb6cdc Leonardo de Araujo Bento <leoedev3579@gmail.com> 1720725263 -0300	commit: add 3° modulo do curso, os recurso do projeto 1 e conteudo editado do modulo 2
+aa44d4ea1b9ea9edd23599dfa2c3f4600bfb6cdc bf32fe30940b9f5305c935e8764f05599e59ce12 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1720725505 -0300	commit: Projeto 1
+bf32fe30940b9f5305c935e8764f05599e59ce12 7f64f61082a77d2d8993ef560555799bef0a34ce Leonardo de Araujo Bento <leoedev3579@gmail.com> 1721746548 -0300	commit: float e clear
+7f64f61082a77d2d8993ef560555799bef0a34ce f14470845aaa8650ddb4377a8b978463d9af6b9d Leonardo de Araujo Bento <leoedev3579@gmail.com> 1721750773 -0300	commit: overflow
+f14470845aaa8650ddb4377a8b978463d9af6b9d d2184e13cad5044b1ba97fd9195103d0a6691b91 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1721751688 -0300	commit: position: absolute
+d2184e13cad5044b1ba97fd9195103d0a6691b91 40acf4ff938c1c661239284897c6733d6ed5bfe1 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1721752325 -0300	commit: position relative e position absolute
+40acf4ff938c1c661239284897c6733d6ed5bfe1 97a07408102062562b7644285e50158e00ee116c Leonardo de Araujo Bento <leoedev3579@gmail.com> 1721752717 -0300	commit: position static
+97a07408102062562b7644285e50158e00ee116c 346480d452ca08534ff7c49fe59016ec2827a72f Leonardo de Araujo Bento <leoedev3579@gmail.com> 1721753053 -0300	commit: position fixed
+346480d452ca08534ff7c49fe59016ec2827a72f 16194ff6b099a4d569ffb6e75272a0bf2673044e Leonardo de Araujo Bento <leoedev3579@gmail.com> 1721753507 -0300	commit: position sticky
+16194ff6b099a4d569ffb6e75272a0bf2673044e 6585a514998843e035f9eec63ab7cbcd595506ac Leonardo de Araujo Bento <leoedev3579@gmail.com> 1721755182 -0300	commit: z-index
+6585a514998843e035f9eec63ab7cbcd595506ac 7c2816f30382bb1fb641df17e526f49dede1c7a5 Leonardo de Araujo Bento <leoedev3579@gmail.com> 1721755297 -0300	commit: z-index.2
