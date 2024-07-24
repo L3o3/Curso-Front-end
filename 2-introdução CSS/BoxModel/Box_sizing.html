@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        /* Este primeiro exemplo so tem uma largura de 500px. Total: 500px */
+        p {
+            width: 500px;
+            background-color: #ccc;
+        }
+
+        /* Este segundo exemplo tem a mesma largura de 500px e mais um espaçameto de 25px do elemento ate a borda. Total: 550px */
+        .p2 {
+            padding: 25px;
+        }
+
+        /* Este terceiro exemplo tem a mesma largura de 500px e mais o espaçamento de 25px e mais a borda de 10px. Total: 570px */
+        .p3 {
+            padding: 25px;
+            border: 10px solid green;
+        }
+
+        /* Este quarto exemplo tem a mesma largura de 500px e mais o espaçamento de 25px e mais a borda de 10px, sendo que tem a propriedade "box-sizing:border-box". Total: 500px */
+        .p4 {
+            padding: 25px;
+            border: 10px solid green;
+            box-sizing: border-box;
+
+            margin-bottom: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Box sizing</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, odio exercitationem sapiente nam adipisci
+        quam eligendi! Non, eligendi aliquam distinctio a quaerat earum placeat mollitia officiis, recusandae sequi ut
+        atque neque ex? Sed, quasi animi itaque, earum voluptas eligendi, provident praesentium pariatur impedit id
+        numquam unde et maiores ea aspernatur deleniti facilis in ab ratione esse cupiditate voluptatum aut doloremque
+        repellendus? Magni assumenda nisi animi consectetur laborum deleniti, ad placeat facere, quis soluta vel dicta
+        molestias expedita omnis necessitatibus natus eveniet? Ipsa, alias illo consequuntur eius quis consequatur porro
+        distinctio sed rem velit iure corporis laudantium explicabo! Eos, tempora voluptate.</p>
+
+    <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, odio exercitationem sapiente nam
+        adipisci
+        quam eligendi! Non, eligendi aliquam distinctio a quaerat earum placeat mollitia officiis, recusandae sequi ut
+        atque neque ex? Sed, quasi animi itaque, earum voluptas eligendi, provident praesentium pariatur impedit id
+        numquam unde et maiores ea aspernatur deleniti facilis in ab ratione esse cupiditate voluptatum aut doloremque
+        repellendus? Magni assumenda nisi animi consectetur laborum deleniti, ad placeat facere, quis soluta vel dicta
+        molestias expedita omnis necessitatibus natus eveniet? Ipsa, alias illo consequuntur eius quis consequatur porro
+        distinctio sed rem velit iure corporis laudantium explicabo! Eos, tempora voluptate.</p>
+
+    <p class="p3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, odio exercitationem sapiente nam
+        adipisci
+        quam eligendi! Non, eligendi aliquam distinctio a quaerat earum placeat mollitia officiis, recusandae sequi ut
+        atque neque ex? Sed, quasi animi itaque, earum voluptas eligendi, provident praesentium pariatur impedit id
+        numquam unde et maiores ea aspernatur deleniti facilis in ab ratione esse cupiditate voluptatum aut doloremque
+        repellendus? Magni assumenda nisi animi consectetur laborum deleniti, ad placeat facere, quis soluta vel dicta
+        molestias expedita omnis necessitatibus natus eveniet? Ipsa, alias illo consequuntur eius quis consequatur porro
+        distinctio sed rem velit iure corporis laudantium explicabo! Eos, tempora voluptate.</p>
+
+    <p class="p4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, odio exercitationem sapiente nam
+        adipisci
+        quam eligendi! Non, eligendi aliquam distinctio a quaerat earum placeat mollitia officiis, recusandae sequi ut
+        atque neque ex? Sed, quasi animi itaque, earum voluptas eligendi, provident praesentium pariatur impedit id
+        numquam unde et maiores ea aspernatur deleniti facilis in ab ratione esse cupiditate voluptatum aut doloremque
+        repellendus? Magni assumenda nisi animi consectetur laborum deleniti, ad placeat facere, quis soluta vel dicta
+        molestias expedita omnis necessitatibus natus eveniet? Ipsa, alias illo consequuntur eius quis consequatur porro
+        distinctio sed rem velit iure corporis laudantium explicabo! Eos, tempora voluptate.</p>
+</body>
+
+</html>
