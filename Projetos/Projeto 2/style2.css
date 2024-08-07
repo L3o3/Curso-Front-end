@@ -1,0 +1,56 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo__principal {
+    color: #385555;
+}
+
+.secao__principal {
+    width: 90%;
+    max-width: 960px;
+}
+    
+.secao__principal--container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    gap: 16px;
+}
+
+.secao__principal--item {
+    flex-basis: 280px;
+    background-color: white;
+    text-align: center;
+    list-style-type: none;
+    background-image: url(imagens/thumb06.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.secao__principal--foto img{
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 120px;
+    border: 2px solid aqua;
+}
+
+.secao__principal--nome {
+    font-size: 24px;
+    color: #385555;
+}
+
+.secao__principal--acao {
+    display: flex;
+    gap: 16px;
+    justify-content: space-evenly;
+}
