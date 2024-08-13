@@ -1,0 +1,13 @@
+body {
+    background-color: red;
+}
+
+.titulo {
+    display: flex;
+    
+}
+
+.titulo__principal {
+    justify-content: center;
+    align-items: center;
+}

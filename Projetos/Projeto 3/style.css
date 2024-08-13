@@ -26,6 +26,10 @@ text-transform: uppercase;
     list-style-type: none;
 }
 
+.acao {
+    color: black;
+}
+
 .navegacao--item a {
     color: yellow;
     text-decoration: none;
@@ -38,7 +42,6 @@ text-transform: uppercase;
     background-color: yellow;
     color: rgb(35, 35, 70);
     border-radius: 10px;
-    /* font-weight: bold; */
 }
 
 .principal {
