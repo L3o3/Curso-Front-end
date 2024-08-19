@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Transition</title>
+    <title>Transition-abreviação</title>
 
     <style>
         div {
+            --anima: ease;
+
             background-color: orange;
             width: 200px;
             height: 150px;
@@ -15,6 +17,9 @@
             transition-duration: .5s, 1s;
             transition-timing-function: ease;
             transition-delay: 0, .9s;
+
+            /* transition: property(all) duration(0s) function(ease) delay(0s); */
+            transition: width .5s var(--anima), height 1s var(--anima) .3s, background-color .5s var(--anima);
         }
 
         div:hover {
