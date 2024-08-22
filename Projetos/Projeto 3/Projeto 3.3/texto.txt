@@ -37,3 +37,24 @@ Sabemos que, para muitas pessoas, a moda é mais do que simplesmente vestir roup
 
 
 Copyright modaora.com
+
+__*__
+
+Informações sobre cores e fontes:
+
+Fonte padrão:
+*Roboto
+
+Possiveis fontes pa ra titulos, que você pode encontrar no google fontes:
+*Italiana
+*Belleza
+*Federo
+*Viaoda Libre(fonte utilizada no print screen)
+
+Cores utilizadas no projeto:
+*Background Top Header: #162028
+*Cor do texto no menu: #425564
+*Cor dos textos: #555
+*Cor de fundo do box com imagem de detalhe: #003d52
+*Cor de fundo do footer: #0b171f
+*Cor de texto do footer: #6f8597

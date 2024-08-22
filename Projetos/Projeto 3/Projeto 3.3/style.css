@@ -1,0 +1,122 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.cabecalho {
+    background-image: url(imagens/topo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.cabecalho--menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #162028b7;
+}
+
+.cabecalho--titulo {
+    color: white;
+    font-family: "Federo", "sans serif";
+    font-size: 36px;
+    letter-spacing: 2px;
+
+}
+
+.nav--secao {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.nav--item {
+    margin: 16px auto;
+}
+
+.nav--item a {
+    color: #425564;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.nav--item a:hover {
+    color: white;
+}
+
+.principal {
+    margin: 0;
+}
+
+.principal--secao {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;    
+}
+
+.secao--texto {
+    margin: 64px auto;
+}
+
+.principal--titulo {
+    margin: 64px auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+.principal--texto {
+    text-align: center;
+}
+
+.principal--card {
+    display: flex;
+    gap: 64px;
+    margin: 0 auto;
+}
+
+.card {
+    text-align: center;
+}
+
+.card--titulo {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.destaque {
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-color: #003d52;
+    background-position: right bottom; 
+    color: white;
+}
+
+.destaque--titulo {
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 120px 80px 0;
+}
+
+.destaque--texto {
+    width: 45%;
+    padding: 0 80px 100px;
+    text-align: left;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.rodape {
+    background-color: #0b171f;
+}
+
+.rodape--texto {
+    color: #6f8597;
+    text-align: center;
+    padding: 32px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
