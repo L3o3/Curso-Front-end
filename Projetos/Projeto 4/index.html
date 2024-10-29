@@ -3,41 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Projeto 4 - Aprenser</title>
-    <link rel="stylesheet" href="resetBasico.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/resetBasico.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 
-    <div class="container--topo">
+    <div class="contorno container--topo--rodape contorno--fixo">
         <header class="navegacao container">
             <img src="imagens/logoAprenser.png" alt="Logo Aprenser">
-            <nav>
+            <nav class="nav">
                 <ul class="container--navegacao">
+                    <li><a class="navegacao--item" href="#cursos">Cursos</a></li>
                     <li><a class="navegacao--item" href="#escola">Nossa escola</a></li>
                     <li><a class="navegacao--item" href="#contatos">Contatos</a></li>
-                    <li><a class="navegacao--item" href="#cursos">Cursos</a></li>
                 </ul>
             </nav>
         </header>
     </div>
 
 
-    <div class="container--banner">
+    <div class="contorno container--banner">
         <main class="banner container">
-            <h1 class="banner--titulo">O saber é o que transforma nosso SER</h1>
-            <a class="btn" href="#">Saiba mais</a>
+            <div class="banner--hero">
+                <h1 class="banner--titulo">O saber é o que transforma nosso <span class="upper">ser</span></h1>
+                <a class="btn" href="#">Saiba mais</a>
+            </div>
             <img src="imagens/HeroImage.png" alt="mulher cheirando flor">
         </main>
     </div>
 
 
-    <div class="container--cursos">
-        <section id="cursos" class="cursos container">
-            <h2 class="cursos--titulo">Principais Cursos</h2>
+    <div id="cursos" class="contorno container--cursos">
+        <section class="cursos container">
+            <h2 class="section--titulo">Principais Cursos</h2>
             <div class="container--card">
 
                 <article class="card">
@@ -66,24 +74,27 @@
                 </article>
             </div>
 
-            <a class="btn" href="">Ver mais cursos</a>
+            <a class="btn section--btn" href="">Ver mais cursos</a>
         </section>
     </div>
 
 
-    <div class="container--escola">
-        <section id="escola" class="nossa_escola container>
-            <div class="escola--descricao">
+    <div id="escola" class="contorno container--escola">
+        <section class="escola container">
                 <img src="imagens/nossa-escola.png" alt="">
-                <h2 class="escola--titulo">Nossa Escola</h2>
-                <p class="escola--texto">Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola de tecnologia online. Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento de software até design gráfico e análise de dados. Nossos instrutores experientes fornecerão a você um ambiente de aprendizado interativo e de suporte para ajudá-lo a adquirir as habilidades necessárias para ter sucesso em sua carreira. Inscreva-se agora e comece sua jornada para se tornar um profissional de tecnologia bem-sucedido.</p>
-            </div>
+                <div class="escola--container">
+                    <h2 class="section--titulo container--titulo">Nossa Escola</h2>
+                    <p class="escola--texto">Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola de tecnologia online. Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento de software até design gráfico e análise de dados. Nossos instrutores experientes fornecerão a você um ambiente de aprendizado interativo e de suporte para ajudá-lo a adquirir as habilidades necessárias para ter sucesso em sua carreira. Inscreva-se agora e comece sua jornada para se tornar um profissional de tecnologia bem-sucedido.</p>
+                </div>
         </section>
     </div>
-    <div class="container--contatos">
-        <section id="contatos" class="contatos container">
-            <h2 class="contatos--titulo">Contatos</h2>
-            <iframe class="mapa" src="imagens/map.png" frameborder="0"></iframe>
+    <div id="contatos" class="contorno container--contatos">
+        <section class="contatos container">
+            <h2 class="container--titulo section--titulo">Contatos</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96702.39303406051!2d-73.9524376671444!3d40.76312922375068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f61db458888b%3A0x19a6fb3bfd71dad4!2sMuseum%20of%20the%20City%20of%20New%20York!5e0!3m2!1spt-BR!2sbr!4v1730206790154!5m2!1spt-BR!2sbr" 
+                width="100%" height="525" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
             <address class="endereco">
                 Av. da Liberdade, 1001 <br>
                 Tel.: +351 21 123 456 <br>
@@ -91,10 +102,8 @@
             </address>
         </section>
     </div>
-    <div class="container--rodape">
-        <footer class="rodape container">
-            <p class="rodape--texto">Desenvolvido por Leoe</p>
-        </footer>
+    <div class="contorno container--topo--rodape">
+        <footer class="rodape container">Desenvolvido por <a href="">Leoe</a> </footer>
     </div>
 </body>
 </html>
